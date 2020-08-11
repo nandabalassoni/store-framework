@@ -55,7 +55,7 @@
     "props": {
       "visibility": "more-than-one",
       "showVariationsErrorMessage": true,
-      "fallbackToText": true
+      "showVariationsLabels": true
     }
   }
 }
