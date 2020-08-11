@@ -54,7 +54,8 @@
   "sku-selector": {
     "props": {
       "visibility": "more-than-one",
-      "showVariationsErrorMessage": true
+      "showVariationsErrorMessage": true,
+      "fallbackToText": true
     }
   }
 }
