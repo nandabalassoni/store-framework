@@ -9,8 +9,9 @@
         "search-not-found-layout"
      ]
   },
-    "search-result-layout.desktop": {
-      "blocks": [
+  "search-result-layout.desktop": {
+    "props": {
+      "children" : [
         "breadcrumb.search",
         "search-title.v2",
         "total-products.v2",
@@ -21,4 +22,5 @@
         "search-fetch-more"
       ]
     }
- }
+  }
+}
