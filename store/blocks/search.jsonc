@@ -30,9 +30,7 @@
   "flex-layout.row#results": {
     "children": [
       "flex-layout.col#filter",
-      "flex-layout.col#search",
-      "flex-layout.col#left",
-      "flex-layout.col#right"
+      "flex-layout.col#search"
     ]
   },
     "search-content": {
@@ -41,7 +39,7 @@
     "gallery": {
       "blocks": ["product-summary.shelf"]
     },
-    "flex-layout.col#left":{
+    "flex-layout.col#filter":{
       "blocks":[
         "filter-navigator.v3"
       ],
@@ -49,7 +47,7 @@
         "width": "20%"
       }
     },
-    "flex-layout.col#right":{
+    "flex-layout.col#search":{
       "blocks":[
         "search-content"
       ]
