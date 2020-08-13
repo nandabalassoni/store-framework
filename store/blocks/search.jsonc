@@ -13,12 +13,35 @@
     "children" :[
       "breadcrumb.search",
       "search-title.v2",
-      "total-products.v2",
-      "order-by.v2",
+      "flex-layout.row#top",
       "search-fetch-previous",
-      "search-content",
-      "filter-navigator.v3",
+      "flex-layout.row#results",
       "search-fetch-more"
     ]
-  }
+  },
+  "flex-layout.row#top": {
+    "children": [
+      "search-content",
+      "filter-navigator.v3",
+      "total-products.v2",
+      "order-by.v2"
+    ]
+  },
+  "flex-layout.row#results": {
+    "children": [
+      "flex-layout.col#filter",
+      "flex-layout.col#search"
+    ]
+  },
+  "filter-navigator.v3" :{
+    "props":{
+      "width": "20%"
+    }
+  },
+    "search-content": {
+      "blocks": ["gallery", "not-found"]
+    },
+    "gallery": {
+      "blocks": ["product-summary.shelf"]
+    }
 }
