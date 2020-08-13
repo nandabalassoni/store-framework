@@ -40,7 +40,7 @@
       "blocks": ["product-summary.shelf"]
     },
     "flex-layout.col#filter":{
-      "blocks":[
+      "children":[
         "filter-navigator.v3"
       ],
       "props":{
@@ -48,7 +48,7 @@
       }
     },
     "flex-layout.col#search":{
-      "blocks":[
+      "children":[
         "search-content"
       ]
     }
