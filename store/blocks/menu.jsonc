@@ -20,7 +20,7 @@
             " vtex.menu@2.x:submenu#small"
         ]
     },
-    "menu-item#electronics-appliances":{
+    "menu-item#electronics":{
         "children":[
             " vtex.menu@2.x:submenu#electronics"
         ]
