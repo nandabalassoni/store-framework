@@ -3,15 +3,17 @@
       "children": [
         "menu-item#major-appliances",
         "menu-item#small-appliances",
-        "menu-item#electronics",
-        "vtex.menu@2.x:submenu#major",
-        "vtex.menu@2.x:submenu#small",
-        "vtex.menu@2.x:submenu#electronics"
+        "menu-item#electronics"
       ],
     
       "props":{
         "orientation": "horizontal"
       }
+    },
+    "menu-item#major-appliances":{
+      "children":[
+        "vtex.menu@2.x:submenu#major"
+      ]
     },
     "vtex.menu@2.x:submenu#major":{
         "children":[
