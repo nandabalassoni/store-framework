@@ -9,6 +9,9 @@
     }
   },
   "menu-item#small-appliances": {
+    "children":[
+      "vtex.menu@2.x:submenu#major"
+    ],
       "props":
     {
       "type": "category",
